@@ -1,0 +1,118 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+%%% Themes: Awesome-CV
+\documentclass[11pt, a4paper]{awesome-cv}
+\usepackage{graphicx, wrapfig, float, xcolor,hyperref}
+\graphicspath{ {./} }
+
+\usepackage[export]{adjustbox}
+\usepackage{setspace}
+%%% Override a directory location for fonts(default: 'fonts/')
+\fontdir[fonts/]
+
+%%% Configure a directory location for sections
+\newcommand*{\sectiondir}{cv/}
+
+\colorlet{awesome}{awesome-red}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Personal Data
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Essentials
+\name{Abhinav}{ Sharma}
+\address{458, DDA SFS Flats, Pocket-1, Sector-9, Dwarka, New Delhi - 110077}
+\mobile{(+91) 9650691024} 
+%%% Social
+\email{abhi18av@gmail.com}
+\homepage{https://abhi18av.github.io/}
+\github{abhi18av}
+\linkedin{abhi18av}
+%%% Optionals
+\position{Aspiring Linguist{\enskip\cdotp\enskip}Software Engineer }
+\quote{``I believe in Magic :)"}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Letter Data (Cover Letter)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\recipient
+  {}
+  {.}
+\letterdate{}
+
+\lettertitle{}
+\letteropening{}
+
+\lettertitle{}
+%\lettertitle{Application for Master's Course}
+%\letteropening{Dear Mr./Ms./Dr. LastName,}
+\letterclosing{Sincerely,}
+\letterenclosure[Attached]{\textcolor{awesome-red}{Curriculum Vitae}}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Content
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Make a footer for CV with three arguments(<left>, <center>, <right>)
+\makecvfooter
+  {\today}
+  {Abhinav Sharma ~~~·~~~Cover Letter}
+  {}
+
+\begin{document}
+
+
+%%% Make a header for CV using personal data
+\makecvheader
+
+%{h} could also be used instead of {r}
+%\begin{wrapfigure}{h!}{0.25\textwidth}
+%    \centering
+%    \includegraphics[height=2 in,width=2 in]{profile.png}
+%     \vspace{10pt}
+%\end{wrapfigure}
+
+
+
+%\hfill\includegraphics[height=2 in, width=2 in, right]{profile.png}\hspace*{\fill}
+
+
+
+%%% Make a title for Cover Letter using letter data
+\makelettertitle
+
+
+
+\begin{minipage}{1.0\textwidth}
+\centering
+\includegraphics[height=2.2 in,width=2 in]{profile_colored.png}
+\end{minipage}
+
+%%% Write content for your cover letter
+\begin{cvletter}
+
+%\begin{spacing}{2.0}
+%\end{spacing}
+
+
+\cvparagraph{About Me}
+I'm ever more curious about "What is human?" and I find that the gift of languages is a vital part of the puzzle. I wish to contribute to our collective knowledge and understanding about languages, I find that this is the most fascinating thing about our species, about culture.
+
+\cvparagraph{Why Languages?}
+I feel that something as simple as languages and yet so close to essence of our human lives, society still has many undiscovered secrets. I feel that we can still learn a lot from our natural gifts, much like Neural Networks and perhaps there's new Mathematics which is just waiting to be understood!
+
+\cvparagraph{Why Computational Linguistics?}
+I am really inspired by the fact that we can use computers as a tool to understand ourselves, to me that's an intriguing idea. There have been so many wonderful advances in Linguistics and Computer Science, I believe that there's something really interesting at the cross-roads.
+
+\end{cvletter}
+
+%%% Make a closing for Cover Letter using letter data
+\makeletterclosing
+
+\end{document}
