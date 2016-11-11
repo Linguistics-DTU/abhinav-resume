@@ -4,3 +4,6 @@ awesome-main.pdf filter=lfs diff=lfs merge=lfs -text
 awesome-cover/profile.png filter=lfs diff=lfs merge=lfs -text
 awesome-cover/profile_color.png filter=lfs diff=lfs merge=lfs -text
 awesome-cover/profile_colored.png filter=lfs diff=lfs merge=lfs -text
+minimal-CV/minimal-CV.pdf filter=lfs diff=lfs merge=lfs -text
+minimal-CV/minimal-cover-CV.pdf filter=lfs diff=lfs merge=lfs -text
+minimal-CV/minimal-main-CV.pdf filter=lfs diff=lfs merge=lfs -text
